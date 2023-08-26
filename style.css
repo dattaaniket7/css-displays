@@ -11,7 +11,19 @@
     height: 20vh;
 }
 
+a {
+    color: purple;
+    font-weight: bold;
+    padding: 1rem;
+}
+
 body {
     font-family: "Poppins";
     margin: 6rem 0rem;
+}
+
+span {
+    color: red;
+    font-weight: bold;
+    padding: 0.5rem;
 }
