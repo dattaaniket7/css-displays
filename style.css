@@ -6,9 +6,9 @@
 
 .box1 {
     background: rgb(69, 88, 183);
-    padding: 1rem;
+    /* padding: 1rem;
     margin: 1rem;
-    height: 20vh;
+    height: 20vh; */
 }
 
 a, button {
@@ -18,11 +18,11 @@ a, button {
     margin: 1rem;
 }
 
-li {
+/* li {
     display: inline-block;
     padding: 1rem;
     visibility: hidden;
-}
+} */
 
 body {
     font-family: "Poppins";
@@ -33,4 +33,17 @@ span {
     color: red;
     font-weight: bold;
     padding: 0.5rem;
+}
+
+ul {
+    display: flex;
+    height: 20rem;
+    /* flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 2rem;
+}
+
+li:first-child {
+    align-self: flex-end;
 }
